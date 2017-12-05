@@ -1,5 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html >
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="Demo/css/common.css" rel="stylesheet" type="text/css" />
@@ -23,7 +25,7 @@
 	   <li class="hd_menu_tit" data-addclass="hd_menu_hover"> <a href="User-SC.jsp">收藏</a> </li>
 	   <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="News.jsp">消息中心</a></li>
        <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="PublicGoods.jsp">商品分类</a></li>
-	   <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="Shop_cart.jsp">我的购物车<b>(23)</b></a></li>
+        <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="Shop_cart.jsp">我的购物车<b>(23)</b></a></li>
 	  </ul>
 	</div>
     </div>
@@ -68,19 +70,19 @@
  </div>
 </div>
 <!--菜单栏-->
-	<div class="Navigation" id="Navigation">
-		 <ul class="Navigation_name">
-			<li><a href="index.jsp">首页</a></li>
-            <li class="hour"><span class="bg_muen"></span><a href="House_life.jsp">半小时生活圈</a></li>
-			<li><a href="Shop(SY).jsp">你身边的超市</a></li>
-			<li><a href="Product_detailed.jsp">预售专区</a><em class="hot_icon"></em></li>
-			<li><a href="Products_list.jsp">商城</a></li>
-			<li><a href="#">好评商户</a></li>
-			<li><a href="#">热销活动</a></li>
-			<li><a href="Brands.jsp">联系我们</a></li>
-		 </ul>			 
-		</div>
-	<script>$("#Navigation").slide({titCell:".Navigation_name li",trigger:"click"});</script>
+	<%--<div class="Navigation" id="Navigation">--%>
+		 <%--<ul class="Navigation_name">--%>
+			<%--<li><a href="index.jsp">首页</a></li>--%>
+            <%--<li class="hour"><span class="bg_muen"></span><a href="House_life.jsp">半小时生活圈</a></li>--%>
+			<%--<li><a href="Shop(SY).jsp">你身边的超市</a></li>--%>
+			<%--<li><a href="Product_detailed.jsp">预售专区</a><em class="hot_icon"></em></li>--%>
+			<%--<li><a href="Products_list.jsp">商城</a></li>--%>
+			<%--<li><a href="#">好评商户</a></li>--%>
+			<%--<li><a href="#">热销活动</a></li>--%>
+			<%--<li><a href="Brands.jsp">联系我们</a></li>--%>
+		 <%--</ul>			 --%>
+		<%--</div>--%>
+	<%--<script>$("#Navigation").slide({titCell:".Navigation_name li",trigger:"click"});</script>--%>
     </div>
 </head>
 <!--广告幻灯片样式-->
